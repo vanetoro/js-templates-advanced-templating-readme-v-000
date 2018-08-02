@@ -2,7 +2,7 @@ Handlebars.registerHelper('comment_body', function(){
   if(this.state === 'closed'){
     return new Handlebars.SafeString(this.body)
   } else{
-    return Handlebars.SafeString("<strong>" + this.body + "</strong>")
+    return Handlebars.SafeString("<strong> is this working?" + this.body + "</strong>")
   }
 })
 
